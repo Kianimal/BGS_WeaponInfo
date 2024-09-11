@@ -1,0 +1,1455 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CWeaponInfoBlob>
+  <SlotNavigateOrder />
+  <TintSpecValues />
+  <FiringPatternAliases />
+  <UpperBodyFixupExpressionData />
+  <AimingInfos />
+  <AccuracyInfos>
+    <Item type="CWeaponAccuracyInfo">
+      <Name>gxbgoqna_0xec406bf1</Name>
+      <AccuracySpread value="2" />
+      <HipFireAccuracySpread value="3.2" />
+      <AccurateModeAccuracyModifier value="5" />
+      <RunAndGunAccuracyModifier value="0.5" />
+      <RunAndGunAccuracyMinOverride value="-1" />
+      <RunAndGunAccuracyMaxModifier value="1" />
+      <RecoilAccuracyMin value="0" />
+      <RecoilAccuracyMax value="1" />
+      <RecoilErrorTime value="0" />
+      <RecoilRecoveryRate value="1" />
+      <RecoilPenalty value="0.35" />
+      <RecoilAccuracyToAllowHeadShotAI value="1000" />
+      <RecoilAccuracyToAllowHeadShotPlayer value="0.175" />
+      <DistractionDecayModifier value="0.35" />
+      <AccuracyFalloffRangeStart value="120" />
+      <AccuracyFalloffRangeEnd value="120" />
+      <AccuracyFalloffMin value="0.2" />
+      <FiringDistractionTime value="0.6" />
+    </Item>
+  </AccuracyInfos>
+  <DamageFallOffInfos>
+    <Item type="CWeaponDamageFallOffInfo">
+      <Name>gjurrfwa_0xabc20672</Name>
+      <Distances itemType="CWeaponDamageFallOffInfo__sFallOffData">
+        <Item>
+          <Distance value="35" />
+          <Damage value="17.5" />
+        </Item>
+        <Item>
+          <Distance value="50" />
+          <Damage value="15" />
+        </Item>
+        <Item>
+          <Distance value="60" />
+          <Damage value="10" />
+        </Item>
+      </Distances>
+    </Item>
+  </DamageFallOffInfos>
+  <SectionedReloadInfos>
+    <Item type="CSectionedReloadInfo">
+      <Name>revolver_cattleman</Name>
+      <IncludeFirstBulletInLoop value="True" />
+      <IncludeLastBulletInLoop value="True" />
+      <UseTimeIntervalPerBullet value="False" />
+      <UseChamberStateOnMotionLayer value="True" />
+      <UseQuickStartClip value="False" />
+      <TagDriveArmIK value="False" />
+      <UseSweepOffsetIntro value="False" />
+      <SupportsOHReloadData value="True" />
+      <SupportsOHReloadDataCover value="True" />
+      <SupportsOHReloadDataOnHorseback value="True" />
+      <MinBulletsBeforeInterrupt value="2" />
+      <ReloadBlendInfos itemType="CSectionedReloadInfo__CReloadHeightBlendInfo">
+        <Item>
+          <LowThreshold value="0" />
+          <HighThreshold value="0.4" />
+          <HeightBlendRate value="0.5" />
+          <UseAsDefault value="True" />
+          <Flags>Standing</Flags>
+        </Item>
+        <Item>
+          <LowThreshold value="0" />
+          <HighThreshold value="0.8" />
+          <HeightBlendRate value="0.4" />
+          <UseAsDefault value="False" />
+          <Flags>Crouching</Flags>
+        </Item>
+        <Item>
+          <LowThreshold value="0" />
+          <HighThreshold value="0.6" />
+          <HeightBlendRate value="0.5" />
+          <UseAsDefault value="False" />
+          <Flags>OnHorseback</Flags>
+        </Item>
+      </ReloadBlendInfos>
+      <GoodCondition type="CSectionedReloadInfo__sReloadData">
+        <IntroRate value="2" />
+        <StartRate value="3" />
+        <LoopRate value="5" />
+        <FailRate value="3" />
+        <EndRate value="3" />
+        <OutroRate value="3" />
+        <AimIntroRate value="4" />
+        <FastRateModifier value="1.5" />
+        <FailChance value="0" />
+        <BlendInDuration value="0.25" />
+        <BlendInDurationFromAim value="0.125" />
+        <TimeBetweenBulletsInLoop value="0.1" />
+        <AIReloadRepositionWindowMin value="0" />
+        <AIReloadRepositionWindowMax value="100" />
+      </GoodCondition>
+      <WornCondition type="CSectionedReloadInfo__sReloadData">
+        <IntroRate value="2" />
+        <StartRate value="2" />
+        <LoopRate value="3.5" />
+        <FailRate value="2" />
+        <EndRate value="2" />
+        <OutroRate value="3" />
+        <AimIntroRate value="4" />
+        <FastRateModifier value="1" />
+        <FailChance value="0.1" />
+        <BlendInDuration value="0.25" />
+        <BlendInDurationFromAim value="0.25" />
+        <TimeBetweenBulletsInLoop value="0.1" />
+        <AIReloadRepositionWindowMin value="0" />
+        <AIReloadRepositionWindowMax value="100" />
+      </WornCondition>
+      <GoodConditionOH type="CSectionedReloadInfo__sReloadData">
+        <IntroRate value="2" />
+        <StartRate value="2.5" />
+        <LoopRate value="2.5" />
+        <FailRate value="2" />
+        <EndRate value="2.5" />
+        <OutroRate value="3" />
+        <AimIntroRate value="4" />
+        <FastRateModifier value="1.5" />
+        <FailChance value="0" />
+        <BlendInDuration value="0.125" />
+        <BlendInDurationFromAim value="0.12" />
+        <TimeBetweenBulletsInLoop value="0.1" />
+        <AIReloadRepositionWindowMin value="0" />
+        <AIReloadRepositionWindowMax value="100" />
+      </GoodConditionOH>
+      <WornConditionOH type="CSectionedReloadInfo__sReloadData">
+        <IntroRate value="2" />
+        <StartRate value="2.2" />
+        <LoopRate value="2.2" />
+        <FailRate value="2" />
+        <EndRate value="2.2" />
+        <OutroRate value="3" />
+        <AimIntroRate value="4" />
+        <FastRateModifier value="1" />
+        <FailChance value="0.1" />
+        <BlendInDuration value="0.125" />
+        <BlendInDurationFromAim value="0.12" />
+        <TimeBetweenBulletsInLoop value="0.1" />
+        <AIReloadRepositionWindowMin value="0" />
+        <AIReloadRepositionWindowMax value="100" />
+      </WornConditionOH>
+      <BulletInfos itemType="CSectionedReloadInfo__sReloadBulletInfo">
+        <Item>
+          <SpinClockwiseDuringReload value="True" />
+          <SpinClockwiseDuringFire value="True" />
+          <BulletOffset value="1" />
+          <gnslkvsa_0xae36d114 value="0" />
+        </Item>
+        <Item>
+          <SpinClockwiseDuringReload value="True" />
+          <SpinClockwiseDuringFire value="True" />
+          <BulletOffset value="1" />
+          <gnslkvsa_0xae36d114 value="0" />
+        </Item>
+      </BulletInfos>
+      <ActionClipPairs itemType="CSectionedReloadInfo__sReloadActionClipIdPairIndexed">
+        <Item>
+          <PedClipId>chaoqxaa_0x1ca97acf</PedClipId>
+          <WeaponClipId>wemiigwa_0x1ebc11f5</WeaponClipId>
+          <ReloadActionTypeIndex>rsrluuaa_0xb797b9fb</ReloadActionTypeIndex>
+        </Item>
+        <Item>
+          <PedClipId />
+          <WeaponClipId />
+          <ReloadActionTypeIndex />
+        </Item>
+        <Item>
+          <PedClipId>cydtarla_0xdf0bebd9</PedClipId>
+          <WeaponClipId>wdnsggda_0xf7476ab6</WeaponClipId>
+          <ReloadActionTypeIndex>dzkftsma_0xa53dd54c</ReloadActionTypeIndex>
+        </Item>
+        <Item>
+          <PedClipId>eihmvcda_0xde4f8962</PedClipId>
+          <WeaponClipId>amqcgada_0xe297b226</WeaponClipId>
+          <ReloadActionTypeIndex>pqsabwpa_0xdf3ffc26</ReloadActionTypeIndex>
+        </Item>
+        <Item>
+          <PedClipId />
+          <WeaponClipId />
+          <ReloadActionTypeIndex />
+        </Item>
+        <Item>
+          <PedClipId>mmoyspsa_0x396b7006</PedClipId>
+          <WeaponClipId>qipzdlla_0x863ee60c</WeaponClipId>
+          <ReloadActionTypeIndex>ujsnzcpa_0xc576852b</ReloadActionTypeIndex>
+        </Item>
+        <Item>
+          <PedClipId />
+          <WeaponClipId />
+          <ReloadActionTypeIndex />
+        </Item>
+        <Item>
+          <PedClipId />
+          <WeaponClipId />
+          <ReloadActionTypeIndex />
+        </Item>
+        <Item>
+          <PedClipId>sfevvnia_0xf27ab949</PedClipId>
+          <WeaponClipId>dhpabbwa_0x0cacf36d</WeaponClipId>
+          <ReloadActionTypeIndex>odbnbaqa_0xc5fb0db6</ReloadActionTypeIndex>
+        </Item>
+        <Item>
+          <PedClipId>udsoxhka_0x04f69385</PedClipId>
+          <WeaponClipId>jytemlfb_0xcc31c6ed</WeaponClipId>
+          <ReloadActionTypeIndex>vvzxbvca_0x6ed4a4a0</ReloadActionTypeIndex>
+        </Item>
+        <Item>
+          <PedClipId>gyssdlka_0x05416b04</PedClipId>
+          <WeaponClipId>ibgelvgb_0xb5e578b1</WeaponClipId>
+          <ReloadActionTypeIndex>bvezwjgb_0x1de1a69e</ReloadActionTypeIndex>
+        </Item>
+        <Item>
+          <PedClipId />
+          <WeaponClipId />
+          <ReloadActionTypeIndex />
+        </Item>
+        <Item>
+          <PedClipId>beyjlnka_0xcee69265</PedClipId>
+          <WeaponClipId>bbgswvaa_0x3d26dfc7</WeaponClipId>
+          <ReloadActionTypeIndex>zkfqzgia_0x930d6c51</ReloadActionTypeIndex>
+        </Item>
+        <Item>
+          <PedClipId>fdotdpfa_0xd6879aa6</PedClipId>
+          <WeaponClipId>fvuedcta_0x0a56f0aa</WeaponClipId>
+          <ReloadActionTypeIndex>moxfrdaa_0xcac9741d</ReloadActionTypeIndex>
+        </Item>
+        <Item>
+          <PedClipId>zejwwmaa_0x284d91a4</PedClipId>
+          <WeaponClipId>gtjwbida_0xfd01aa6f</WeaponClipId>
+          <ReloadActionTypeIndex>bhrzukbd_0xb2b81de1</ReloadActionTypeIndex>
+        </Item>
+        <Item>
+          <PedClipId>giertmta_0x29948309</PedClipId>
+          <WeaponClipId>hafrqraa_0xad60755a</WeaponClipId>
+          <ReloadActionTypeIndex>okntiaha_0x8039ce44</ReloadActionTypeIndex>
+        </Item>
+      </ActionClipPairs>
+    </Item>
+    <Item type="CSectionedReloadInfo">
+      <Name>cnzwkxja_0xf783f986</Name>
+      <IncludeFirstBulletInLoop value="True" />
+      <IncludeLastBulletInLoop value="True" />
+      <UseTimeIntervalPerBullet value="False" />
+      <UseChamberStateOnMotionLayer value="True" />
+      <UseQuickStartClip value="False" />
+      <TagDriveArmIK value="False" />
+      <UseSweepOffsetIntro value="False" />
+      <SupportsOHReloadData value="True" />
+      <SupportsOHReloadDataCover value="True" />
+      <SupportsOHReloadDataOnHorseback value="True" />
+      <MinBulletsBeforeInterrupt value="2" />
+      <ReloadBlendInfos itemType="CSectionedReloadInfo__CReloadHeightBlendInfo">
+        <Item>
+          <LowThreshold value="0.4" />
+          <HighThreshold value="1" />
+          <HeightBlendRate value="0.1" />
+          <UseAsDefault value="True" />
+          <Flags>Standing</Flags>
+        </Item>
+        <Item>
+          <LowThreshold value="0.5" />
+          <HighThreshold value="1" />
+          <HeightBlendRate value="0.1" />
+          <UseAsDefault value="False" />
+          <Flags>Crouching</Flags>
+        </Item>
+        <Item>
+          <LowThreshold value="0.4" />
+          <HighThreshold value="1" />
+          <HeightBlendRate value="0.1" />
+          <UseAsDefault value="False" />
+          <Flags>OnHorseback</Flags>
+        </Item>
+      </ReloadBlendInfos>
+      <GoodCondition type="CSectionedReloadInfo__sReloadData">
+        <IntroRate value="1" />
+        <StartRate value="1" />
+        <LoopRate value="1" />
+        <FailRate value="1" />
+        <EndRate value="1" />
+        <OutroRate value="1" />
+        <AimIntroRate value="1" />
+        <FastRateModifier value="1.5" />
+        <FailChance value="0" />
+        <BlendInDuration value="0.25" />
+        <BlendInDurationFromAim value="0.125" />
+        <TimeBetweenBulletsInLoop value="0.1" />
+        <AIReloadRepositionWindowMin value="0" />
+        <AIReloadRepositionWindowMax value="100" />
+      </GoodCondition>
+      <WornCondition type="CSectionedReloadInfo__sReloadData">
+        <IntroRate value="1" />
+        <StartRate value="1" />
+        <LoopRate value="1" />
+        <FailRate value="1" />
+        <EndRate value="1" />
+        <OutroRate value="1" />
+        <AimIntroRate value="1" />
+        <FastRateModifier value="1" />
+        <FailChance value="0.1" />
+        <BlendInDuration value="0.25" />
+        <BlendInDurationFromAim value="0.25" />
+        <TimeBetweenBulletsInLoop value="0.1" />
+        <AIReloadRepositionWindowMin value="0" />
+        <AIReloadRepositionWindowMax value="100" />
+      </WornCondition>
+      <GoodConditionOH type="CSectionedReloadInfo__sReloadData">
+        <IntroRate value="1" />
+        <StartRate value="1.85" />
+        <LoopRate value="1.85" />
+        <FailRate value="1" />
+        <EndRate value="1.85" />
+        <OutroRate value="1" />
+        <AimIntroRate value="1" />
+        <FastRateModifier value="1.5" />
+        <FailChance value="0" />
+        <BlendInDuration value="0.125" />
+        <BlendInDurationFromAim value="0.125" />
+        <TimeBetweenBulletsInLoop value="0.1" />
+        <AIReloadRepositionWindowMin value="0" />
+        <AIReloadRepositionWindowMax value="100" />
+      </GoodConditionOH>
+      <WornConditionOH type="CSectionedReloadInfo__sReloadData">
+        <IntroRate value="1" />
+        <StartRate value="1.7" />
+        <LoopRate value="1.7" />
+        <FailRate value="1" />
+        <EndRate value="1.7" />
+        <OutroRate value="1" />
+        <AimIntroRate value="1" />
+        <FastRateModifier value="1" />
+        <FailChance value="0.1" />
+        <BlendInDuration value="0.125" />
+        <BlendInDurationFromAim value="0.125" />
+        <TimeBetweenBulletsInLoop value="0.1" />
+        <AIReloadRepositionWindowMin value="0" />
+        <AIReloadRepositionWindowMax value="100" />
+      </WornConditionOH>
+      <BulletInfos itemType="CSectionedReloadInfo__sReloadBulletInfo">
+        <Item>
+          <SpinClockwiseDuringReload value="True" />
+          <SpinClockwiseDuringFire value="True" />
+          <BulletOffset value="1" />
+          <gnslkvsa_0xae36d114 value="0" />
+        </Item>
+        <Item>
+          <SpinClockwiseDuringReload value="True" />
+          <SpinClockwiseDuringFire value="True" />
+          <BulletOffset value="1" />
+          <gnslkvsa_0xae36d114 value="0" />
+        </Item>
+      </BulletInfos>
+      <ActionClipPairs itemType="CSectionedReloadInfo__sReloadActionClipIdPairIndexed">
+        <Item>
+          <PedClipId>chaoqxaa_0x1ca97acf</PedClipId>
+          <WeaponClipId>wemiigwa_0x1ebc11f5</WeaponClipId>
+          <ReloadActionTypeIndex>rsrluuaa_0xb797b9fb</ReloadActionTypeIndex>
+        </Item>
+        <Item>
+          <PedClipId />
+          <WeaponClipId />
+          <ReloadActionTypeIndex />
+        </Item>
+        <Item>
+          <PedClipId>cydtarla_0xdf0bebd9</PedClipId>
+          <WeaponClipId>wdnsggda_0xf7476ab6</WeaponClipId>
+          <ReloadActionTypeIndex>dzkftsma_0xa53dd54c</ReloadActionTypeIndex>
+        </Item>
+        <Item>
+          <PedClipId>eihmvcda_0xde4f8962</PedClipId>
+          <WeaponClipId>amqcgada_0xe297b226</WeaponClipId>
+          <ReloadActionTypeIndex>pqsabwpa_0xdf3ffc26</ReloadActionTypeIndex>
+        </Item>
+        <Item>
+          <PedClipId />
+          <WeaponClipId />
+          <ReloadActionTypeIndex />
+        </Item>
+        <Item>
+          <PedClipId>mmoyspsa_0x396b7006</PedClipId>
+          <WeaponClipId>qipzdlla_0x863ee60c</WeaponClipId>
+          <ReloadActionTypeIndex>ujsnzcpa_0xc576852b</ReloadActionTypeIndex>
+        </Item>
+        <Item>
+          <PedClipId />
+          <WeaponClipId />
+          <ReloadActionTypeIndex />
+        </Item>
+        <Item>
+          <PedClipId />
+          <WeaponClipId />
+          <ReloadActionTypeIndex />
+        </Item>
+        <Item>
+          <PedClipId>sfevvnia_0xf27ab949</PedClipId>
+          <WeaponClipId>dhpabbwa_0x0cacf36d</WeaponClipId>
+          <ReloadActionTypeIndex>odbnbaqa_0xc5fb0db6</ReloadActionTypeIndex>
+        </Item>
+        <Item>
+          <PedClipId>udsoxhka_0x04f69385</PedClipId>
+          <WeaponClipId>jytemlfb_0xcc31c6ed</WeaponClipId>
+          <ReloadActionTypeIndex>vvzxbvca_0x6ed4a4a0</ReloadActionTypeIndex>
+        </Item>
+        <Item>
+          <PedClipId>gyssdlka_0x05416b04</PedClipId>
+          <WeaponClipId>ibgelvgb_0xb5e578b1</WeaponClipId>
+          <ReloadActionTypeIndex>bvezwjgb_0x1de1a69e</ReloadActionTypeIndex>
+        </Item>
+        <Item>
+          <PedClipId />
+          <WeaponClipId />
+          <ReloadActionTypeIndex />
+        </Item>
+        <Item>
+          <PedClipId>beyjlnka_0xcee69265</PedClipId>
+          <WeaponClipId>bbgswvaa_0x3d26dfc7</WeaponClipId>
+          <ReloadActionTypeIndex>zkfqzgia_0x930d6c51</ReloadActionTypeIndex>
+        </Item>
+        <Item>
+          <PedClipId>fdotdpfa_0xd6879aa6</PedClipId>
+          <WeaponClipId>fvuedcta_0x0a56f0aa</WeaponClipId>
+          <ReloadActionTypeIndex>moxfrdaa_0xcac9741d</ReloadActionTypeIndex>
+        </Item>
+        <Item>
+          <PedClipId>zejwwmaa_0x284d91a4</PedClipId>
+          <WeaponClipId>gtjwbida_0xfd01aa6f</WeaponClipId>
+          <ReloadActionTypeIndex>bhrzukbd_0xb2b81de1</ReloadActionTypeIndex>
+        </Item>
+        <Item>
+          <PedClipId>giertmta_0x29948309</PedClipId>
+          <WeaponClipId>hafrqraa_0xad60755a</WeaponClipId>
+          <ReloadActionTypeIndex>okntiaha_0x8039ce44</ReloadActionTypeIndex>
+        </Item>
+      </ActionClipPairs>
+    </Item>
+  </SectionedReloadInfos>
+  <CockingInfos>
+    <Item type="CWeaponCockingInfo">
+      <Name>cocking_cattleman</Name>
+      <NumBarrels value="1" />
+      <GoodCondition type="CWeaponCockingInfo__sCockingData">
+        <CockStartRate value="0.3" />
+        <CockStartQuickRate value="0.3" />
+        <CockEndRate value="0.3" />
+        <RecoilRate value="2" />
+        <FireRecoilRate value="2" />
+        <zofaxtza_0xa2334074 value="1" />
+        <CockToFireDelay value="4.5" />
+        <FireDelay value="0.3" />
+        <TimeScaleCockRateModifier value="0.9" />
+        <TimeScaleFireRateModifier value="0.9" />
+        <TimeScaleRecoilRateModifier value="0.9" />
+        <HipCockStartRate value="0.1" />
+        <HipCockStartQuickRate value="0.4" />
+        <HipCockEndRate value="0.4" />
+        <HipRecoilRate value="2" />
+        <HipFireRate value="1.2" />
+        <HipFireDelay value="1.1" />
+        <TimeScaleHipCockRateModifier value="1.5" />
+        <TimeScaleHipFireRateModifier value="1.5" />
+        <TimeScaleHipRecoilRateModifier value="1.5" />
+        <AiOnFootRateModifier value="1" />
+        <AiHorsebackRateModifier value="1" />
+      </GoodCondition>
+      <WornCondition type="CWeaponCockingInfo__sCockingData">
+        <CockStartRate value="0.5" />
+        <CockStartQuickRate value="0/3" />
+        <CockEndRate value="0.5" />
+        <RecoilRate value="1.75" />
+        <FireRecoilRate value="1" />
+        <zofaxtza_0xa2334074 value="1" />
+        <CockToFireDelay value="4.5" />
+        <FireDelay value="0.3" />
+        <TimeScaleCockRateModifier value="0.9" />
+        <TimeScaleFireRateModifier value="0.9" />
+        <TimeScaleRecoilRateModifier value="0.9" />
+        <HipCockStartRate value="0.1" />
+        <HipCockStartQuickRate value="0.1" />
+        <HipCockEndRate value="0.4" />
+        <HipRecoilRate value="1.75" />
+        <HipFireRate value="1.2" />
+        <HipFireDelay value="1.1" />
+        <TimeScaleHipCockRateModifier value="1.5" />
+        <TimeScaleHipFireRateModifier value="1.5" />
+        <TimeScaleHipRecoilRateModifier value="1.5" />
+        <AiOnFootRateModifier value="1" />
+        <AiHorsebackRateModifier value="1" />
+      </WornCondition>
+    </Item>
+  </CockingInfos>
+  <LassoTuneInfos />
+  <IkRecoilInfos />
+  <QuiverInfos />
+  <DegradationInfos />
+  <FamiliarityInfos />
+  <RumbleInfos />
+  <VertDataInfos />
+  <Infos itemType="sWeaponInfoList">
+    <Item>
+      <Infos />
+    </Item>
+    <Item>
+      <Infos>
+        <Item type="CWeaponInfo">
+          <Properties />
+          <Name>weapon_revolver_cattleman</Name>
+          <Model />
+          <SwapClipSetHash />
+          <GripClipSetHash />
+          <GripClipHash />
+          <Audio>rexayegb_0xeeee53d8</Audio>
+          <Slot>xnrghsha_0xe96f9b6e</Slot>
+          <FireType>BULLET</FireType>
+          <Group>uiiterob_0xbe5b8969</Group>
+          <WeaponType>Shortarm</WeaponType>
+          <SwapWeaponType>Weapon_Shortarm</SwapWeaponType>
+          <Score value="290" />
+          <ScoreMP value="-1" />
+          <AnimationLookupHash />
+          <DamageModes itemType="CWeaponDamageModeInfo">
+            <Item>
+              <AmmoInfo>ammo_revolver</AmmoInfo>
+              <Name>pbuztoka_0xc50b6fe0</Name>
+              <ClipIndex value="0" />
+              <Damage value="26" />
+              <DamageType>BULLET</DamageType>
+              <Penetration value="1.2" />
+              <Explosion type="CWeaponExplosionInfo">
+                <Default>EXP_TAG_DONTCARE</Default>
+                <HitCar>EXP_TAG_DONTCARE</HitCar>
+                <HitTruck>EXP_TAG_DONTCARE</HitTruck>
+                <HitBike>EXP_TAG_DONTCARE</HitBike>
+                <HitBoat>EXP_TAG_DONTCARE</HitBoat>
+                <HitPlane>EXP_TAG_DONTCARE</HitPlane>
+              </Explosion>
+              <AccuracyInfo />
+              <DamageFallOffInfo />
+              <MeleeExecutionDismemberment value="-1" />
+              <DismembermentRanges />
+              <ImpulseMultiplier value="-1" />
+              <NmShotTuningSet />
+              <RecoilShakeHash />
+              <RecoilShakeHashFirstPerson />
+              <RecoilShakeAmplitude value="-1" />
+              <RecoilShakeAmplitudeFirstPerson value="-1" />
+              <PlayerDamagedByPlayerModifier value="-1" />
+            </Item>
+            <Item>
+              <AmmoInfo>ammo_revolver_high_velocity</AmmoInfo>
+              <Name>swxtowba_0x91ae2bf6</Name>
+              <ClipIndex value="0" />
+              <Damage value="28.5" />
+              <DamageType>BULLET</DamageType>
+              <Penetration value="1.5" />
+              <Explosion type="CWeaponExplosionInfo">
+                <Default>EXP_TAG_DONTCARE</Default>
+                <HitCar>EXP_TAG_DONTCARE</HitCar>
+                <HitTruck>EXP_TAG_DONTCARE</HitTruck>
+                <HitBike>EXP_TAG_DONTCARE</HitBike>
+                <HitBoat>EXP_TAG_DONTCARE</HitBoat>
+                <HitPlane>EXP_TAG_DONTCARE</HitPlane>
+              </Explosion>
+              <AccuracyInfo />
+              <DamageFallOffInfo>oaafibpa_0x53bd8b80</DamageFallOffInfo>
+              <MeleeExecutionDismemberment value="-1" />
+              <DismembermentRanges />
+              <ImpulseMultiplier value="-1" />
+              <NmShotTuningSet />
+              <RecoilShakeHash />
+              <RecoilShakeHashFirstPerson />
+              <RecoilShakeAmplitude value="-1" />
+              <RecoilShakeAmplitudeFirstPerson value="-1" />
+              <PlayerDamagedByPlayerModifier value="-1" />
+            </Item>
+            <Item>
+              <AmmoInfo>ammo_revolver_split_point</AmmoInfo>
+              <Name>ygnvhdwc_0x374dbf2e</Name>
+              <ClipIndex value="0" />
+              <Damage value="31" />
+              <DamageType>BULLET</DamageType>
+              <Penetration value="1.2" />
+              <Explosion type="CWeaponExplosionInfo">
+                <Default>EXP_TAG_DONTCARE</Default>
+                <HitCar>EXP_TAG_DONTCARE</HitCar>
+                <HitTruck>EXP_TAG_DONTCARE</HitTruck>
+                <HitBike>EXP_TAG_DONTCARE</HitBike>
+                <HitBoat>EXP_TAG_DONTCARE</HitBoat>
+                <HitPlane>EXP_TAG_DONTCARE</HitPlane>
+              </Explosion>
+              <AccuracyInfo />
+              <DamageFallOffInfo />
+              <MeleeExecutionDismemberment value="-1" />
+              <DismembermentRanges />
+              <ImpulseMultiplier value="-1" />
+              <NmShotTuningSet />
+              <RecoilShakeHash />
+              <RecoilShakeHashFirstPerson />
+              <RecoilShakeAmplitude value="-1" />
+              <RecoilShakeAmplitudeFirstPerson value="-1" />
+              <PlayerDamagedByPlayerModifier value="-1" />
+            </Item>
+            <Item>
+              <AmmoInfo>ammo_revolver_express</AmmoInfo>
+              <Name>xtqzoqja_0x7032d190</Name>
+              <ClipIndex value="0" />
+              <Damage value="33.5" />
+              <DamageType>BULLET</DamageType>
+              <Penetration value="1" />
+              <Explosion type="CWeaponExplosionInfo">
+                <Default>EXP_TAG_DONTCARE</Default>
+                <HitCar>EXP_TAG_DONTCARE</HitCar>
+                <HitTruck>EXP_TAG_DONTCARE</HitTruck>
+                <HitBike>EXP_TAG_DONTCARE</HitBike>
+                <HitBoat>EXP_TAG_DONTCARE</HitBoat>
+                <HitPlane>EXP_TAG_DONTCARE</HitPlane>
+              </Explosion>
+              <AccuracyInfo />
+              <DamageFallOffInfo />
+              <MeleeExecutionDismemberment value="-1" />
+              <DismembermentRanges />
+              <ImpulseMultiplier value="-1" />
+              <NmShotTuningSet />
+              <RecoilShakeHash />
+              <RecoilShakeHashFirstPerson />
+              <RecoilShakeAmplitude value="-1" />
+              <RecoilShakeAmplitudeFirstPerson value="-1" />
+              <PlayerDamagedByPlayerModifier value="-1" />
+            </Item>
+            <Item>
+              <AmmoInfo>ytdwfuca_0x04a8efbb</AmmoInfo>
+              <Name>fxvlijea_0x27eb68bd</Name>
+              <ClipIndex value="0" />
+              <Damage value="120" />
+              <DamageType>EXPLOSIVE</DamageType>
+              <Penetration value="0" />
+              <Explosion type="CWeaponExplosionInfo">
+                <Default>EXP_TAG_BULLET</Default>
+                <HitCar>EXP_TAG_DONTCARE</HitCar>
+                <HitTruck>EXP_TAG_DONTCARE</HitTruck>
+                <HitBike>EXP_TAG_DONTCARE</HitBike>
+                <HitBoat>EXP_TAG_DONTCARE</HitBoat>
+                <HitPlane>EXP_TAG_DONTCARE</HitPlane>
+              </Explosion>
+              <AccuracyInfo />
+              <DamageFallOffInfo />
+              <MeleeExecutionDismemberment value="-1" />
+              <DismembermentRanges />
+              <ImpulseMultiplier value="-1" />
+              <NmShotTuningSet />
+              <RecoilShakeHash />
+              <RecoilShakeHashFirstPerson />
+              <RecoilShakeAmplitude value="-1" />
+              <RecoilShakeAmplitudeFirstPerson value="-1" />
+              <PlayerDamagedByPlayerModifier value="-1" />
+            </Item>
+          </DamageModes>
+          <AimingInfo>fshrjefa_0xde4ee4ce</AimingInfo>
+          <ClipInfos itemType="dyasubaa_0xde99e9ed">
+            <Item>
+              <Type>Cylinder</Type>
+              <Size value="6" />
+              <BulletsPerAnimLoop value="1" />
+            </Item>
+          </ClipInfos>
+          <drhjdoja_0x16fed869 />
+          <AccuracyInfo>gxbgoqna_0xec406bf1</AccuracyInfo>
+          <DamageFallOffInfo>gjurrfwa_0xabc20672</DamageFallOffInfo>
+          <WeaponHeadShotDistance type="CWeaponHeadShotDistance">
+            <MinHeadShotDistanceAI value="1" />
+            <MaxHeadShotDistanceAI value="80" />
+            <MinHeadShotDistancePlayer value="5" />
+            <MaxHeadShotDistancePlayer value="40" />
+            <MaxHeadShotDistanceToPlayerWithScope value="-1" />
+          </WeaponHeadShotDistance>
+          <WeaponDamageModifiers type="CWeaponDamageModifiers">
+            <HeadShotDamageModifierAI value="1000" />
+            <HeadShotDamageModifierPlayer value="10" />
+            <NonRegionLimbDamageModifier value="0.5" />
+            <LightlyArmouredDamageModifier value="0.75" />
+            <HeadOnCloseRangePedModifier value="2" />
+            <ddghspla_0x1806425c value="0.2" />
+            <CriticalHitChanceModifier value="1" />
+            <VehicleDamageModifier value="1" />
+            <PlayerDamagedByPlayerModifier value="1" />
+            <PlayerDamagedByAIModifier value="1" />
+            <AIDamagedByPlayerModifier value="1" />
+          </WeaponDamageModifiers>
+          <WeaponDamageTime type="CWeaponDamageTime">
+            <DamageTime value="0" />
+            <DamageTimeInVehicle value="0" />
+            <DamageTimeInVehicleHeadShot value="0" />
+          </WeaponDamageTime>
+          <WeaponForce type="CWeaponForce">
+            <Force value="50" />
+            <ForceHitPed value="100" />
+            <ForceHitVehicle value="750" />
+            <ForceHitFlyingHeli value="3000" />
+            <OverrideForces itemType="CWeaponsHitBoneForceOverride">
+              <Item>
+                <BoneTag>ID_SKEL_HEAD</BoneTag>
+                <ForceFront value="50" />
+                <ForceBack value="50" />
+              </Item>
+              <Item>
+                <BoneTag>ID_SKEL_NECK2</BoneTag>
+                <ForceFront value="50" />
+                <ForceBack value="50" />
+              </Item>
+            </OverrideForces>
+            <ForceMaxStrengthMult value="1" />
+            <ForceFalloffRangeStart value="0" />
+            <ForceFalloffRangeEnd value="50" />
+            <ForceFalloffMin value="1" />
+            <ProjectileForce value="0" />
+          </WeaponForce>
+          <MeleeExecutionDismemberment value="0" />
+          <DismembermentRanges itemType="sDismembermentRange">
+            <Item>
+              <MaxRange value="5" />
+              <DismembermentPercent value="0" />
+              <DismembermentIncrement value="1" />
+            </Item>
+            <Item>
+              <MaxRange value="15" />
+              <DismembermentPercent value="0" />
+              <DismembermentIncrement value="1" />
+            </Item>
+            <Item>
+              <MaxRange value="25" />
+              <DismembermentPercent value="0" />
+              <DismembermentIncrement value="1" />
+            </Item>
+            <Item>
+              <MaxRange value="50" />
+              <DismembermentPercent value="0" />
+              <DismembermentIncrement value="1" />
+            </Item>
+          </DismembermentRanges>
+          <DismembermentSetting />
+          <tgdwhuba_0x78bb5b90 value="1" />
+          <FragImpulse value="251" />
+          <VerticalLaunchAdjustment value="0" />
+          <LaunchPitchCorrectionMax value="90" />
+          <DropForwardVelocity value="0" />
+          <Speed value="2000" />
+          <MaxDrawingMBR value="-1" />
+          <BatchSpread value="0" />
+          <WeaponReload type="CWeaponReload">
+            <ReloadTime value="-1" />
+            <VehicleReloadTime value="2" />
+            <AnimReloadRate value="0.5" />
+            <SectionedReloadInfo>revolver_cattleman</SectionedReloadInfo>
+            <SectionedReloadInfoDual>cnzwkxja_0xf783f986</SectionedReloadInfoDual>
+          </WeaponReload>
+          <CockingInfo>cocking_cattleman</CockingInfo>
+          <LassoTune />
+          <IkRecoilInfo>lnvvdvqa_0xd6fa915b</IkRecoilInfo>
+          <QuiverInfo />
+          <WeaponTimeBetweenShots type="CWeaponTimeBetweenShots">
+            <TimeBetweenShotsMin value="0.5" />
+            <TimeBetweenShotsMax value="0.5" />
+            <TimeLeftBetweenShotsWhereShouldFireIsCached value="-1" />
+            <SpinUpTime value="0" />
+            <SpinTime value="0" />
+            <SpinDownTime value="0" />
+            <AlternateWaitTime value="-1" />
+          </WeaponTimeBetweenShots>
+          <WeaponBulletBending type="CWeaponBulletBending">
+            <BulletBendingNearRadius value="0.0125" />
+            <BulletBendingFarRadius value="0.75" />
+            <BulletBendingZoomedRadius value="0.375" />
+            <FirstPersonBulletBendingNearRadius value="0.0125" />
+            <FirstPersonBulletBendingFarRadius value="0.375" />
+            <FirstPersonBulletBendingZoomedRadius value="0" />
+          </WeaponBulletBending>
+          <Vfx type="CWeaponInfo__sVfx">
+            <EffectGroup>WEAPON_EFFECT_GROUP_PISTOL_SMALL</EffectGroup>
+            <VfxBloodInfoHashName>oyljueha_0xef860b81</VfxBloodInfoHashName>
+            <VfxBloodMeleeInfoHashName>waylpjfa_0x9e5c1353</VfxBloodMeleeInfoHashName>
+            <VfxBloodPoolInfoHashName>djasfrfa_0x13585f5e</VfxBloodPoolInfoHashName>
+            <VfxWeaponImpactAmmoInfoHashName>qfohegab_0xe100a2b9</VfxWeaponImpactAmmoInfoHashName>
+            <VfxWeaponImpactAmmoStrengthEvo value="0.7" />
+            <VfxWeaponImpactMeleeInfoHashName>fsbvpcyc_0xe94b7e71</VfxWeaponImpactMeleeInfoHashName>
+            <VfxWeaponImpactMeleeStrengthEvo value="0" />
+            <VfxWeaponMuzzlePositionOverride x="0" y="0" z="0" w="0" />
+            <VfxWeaponMuzzleFlashInfoHashName>okkcthna_0x31d9d4f7</VfxWeaponMuzzleFlashInfoHashName>
+            <VfxWeaponMuzzleSmokeInfoHashName>kxcwakea_0xc67b42c3</VfxWeaponMuzzleSmokeInfoHashName>
+            <VfxWeaponBarrelSmokeInfoHashName />
+            <VfxWeaponHammerInfoHashName>pujealga_0x2a5e458b</VfxWeaponHammerInfoHashName>
+            <VfxWeaponTracerInfoHashName>qoxojgha_0xd5551261</VfxWeaponTracerInfoHashName>
+            <VfxWeaponShellInfoHashName>gzmzutra_0x53690d3b</VfxWeaponShellInfoHashName>
+            <VfxWeaponGroundDisturbInfoHashName />
+            <VfxWeaponInteriorSmokeInfoHashName>ohxrpgub_0xe141f083</VfxWeaponInteriorSmokeInfoHashName>
+            <VfxWeaponAirDebrisInfoHashName>kqgseina_0x9977cd9e</VfxWeaponAirDebrisInfoHashName>
+          </Vfx>
+          <WindDisturbance type="CWeaponInfo__sWindDisturbance">
+            <WindDisturbanceMuzzleInfoHashName>qyxfmppa_0xc9a04eb7</WindDisturbanceMuzzleInfoHashName>
+            <WindDisturbanceBulletInfoHashName>htvnrnka_0x300807a5</WindDisturbanceBulletInfoHashName>
+          </WindDisturbance>
+          <DegradationInfo>lucttzda_0x2af04744</DegradationInfo>
+          <FamiliarityInfo>intnijga_0x0d6ec4b8</FamiliarityInfo>
+          <RumbleInfo>umjmboca_0x53f578fe</RumbleInfo>
+          <WeaponRanges type="CWeaponRanges">
+            <LockOnRange value="40" />
+            <LockOnRangeInVehicle value="40" />
+            <IdleLockOnRangeModifier value="1" />
+            <SoftLockDurationOverride value="-1" />
+            <WeaponRange value="85" />
+            <WeaponRangeInVehicle value="85" />
+            <MeleeWeaponRangeMin value="1.5" />
+            <MeleeWeaponRangeMax value="2" />
+            <MeleeWeaponRangeMaxRun value="4" />
+            <MeleeWeaponRangeMinToRun value="20" />
+            <DesiredRange value="10" />
+            <ProjectileRangeMin value="-1" />
+            <ProjectileRangeMax value="-1" />
+            <AiSoundRange value="-1" />
+            <AiPotentialBlastEventRange value="-1" />
+          </WeaponRanges>
+          <BulletDirectionOffsetInDegrees value="0" />
+          <zhluknqa_0xc824f688 value="1" />
+          <IsSpecialWeapon value="False" />
+          <IsOutlawWeapon value="False" />
+          <UnlockWeaponHash>weapon_revolver_cattleman</UnlockWeaponHash>
+          <BrokenWeaponHash />
+          <VehicleWeaponHash />
+          <WeaponCamera type="CWeaponCamera">
+            <CameraDictionaryHash />
+            <DefaultCameraHash>default_third_person_ped_aim_camera</DefaultCameraHash>
+            <InteractionLockonCameraHash>cpdwsipa_0x5d3defd9</InteractionLockonCameraHash>
+            <AimCameraHash />
+            <FireCameraHash />
+            <HorseCameraHash>judewpha_0x65b60988</HorseCameraHash>
+            <CoverCameraHash>txcoczca_0xc4e1f206</CoverCameraHash>
+            <CoverReadyToFireCameraHash>vqvullia_0x0797bd96</CoverReadyToFireCameraHash>
+            <CoverHipFireCameraHash>vqvullia_0x0797bd96</CoverHipFireCameraHash>
+            <RunAndGunCameraHash>default_third_person_ped_run_and_gun_camera</RunAndGunCameraHash>
+            <CinematicShootingCameraHash />
+            <GrappleCameraHash>izfuxfpa_0xfbe36564</GrappleCameraHash>
+            <CameraFov value="45" />
+            <FirstPersonAimFovMin value="42" />
+            <FirstPersonAimFovMax value="47" />
+            <FirstPersonDofSubjectMagnificationPowerFactorNear value="1.025" />
+            <FirstPersonDofMaxNearInFocusDistance value="0" />
+            <FirstPersonDofMaxNearInFocusDistanceBlendLevel value="0.3" />
+            <ZoomFactorForAccurateMode value="1" />
+            <RecoilShakeHash>default_third_person_recoil_shake</RecoilShakeHash>
+            <RecoilShakeHashFirstPerson>fps_pistol_recoil_shake</RecoilShakeHashFirstPerson>
+            <AccuracyOffsetShakeHash />
+            <MinTimeBetweenRecoilShakes value="150" />
+            <RecoilShakeAmplitude value="1" />
+            <RecoilShakeAmplitudeFirstPerson value="1" />
+            <ExplosionShakeAmplitude value="-1" />
+          </WeaponCamera>
+          <CoverTypeHash>duitswpa_0x74d02303</CoverTypeHash>
+          <cvnpnwgb_0x239bf1c9 />
+          <WeaponReticule type="CWeaponReticule">
+            <ReticuleHudPosition x="0.5" y="0.5" />
+            <ReticuleStyleHash>pistol</ReticuleStyleHash>
+            <FirstPersonReticuleStyleHash />
+            <ReticleSwaySettleDuration value="0.75" />
+            <ReticleSwayPostSettleRestartTime value="6" />
+            <ReticleSwayAmplitudeModifierNear value="1" />
+            <ReticleSwayAmplitudeModifierFar value="1" />
+            <ReticleSwayRangeNear value="1" />
+            <ReticleSwayRangeFar value="1.25" />
+          </WeaponReticule>
+          <WeaponAimOffsets type="CWeaponAimOffsets">
+            <AimOffsetMin x="0.2" y="-0.025" z="0.4" />
+            <AimOffsetMax x="0.275" y="-0.05" z="0.525" />
+            <TorsoAimOffset x="-1" y="0.55" />
+            <TorsoCrouchedAimOffset x="0.2" y="0.05" />
+            <AimProbeLengthMin value="0.4" />
+            <AimProbeLengthMax value="0.375" />
+            <AimOffsetMinFPSIdle x="0" y="0" z="0" />
+            <AimOffsetMedFPSIdle x="0" y="0" z="0" />
+            <AimOffsetMaxFPSIdle x="0" y="0" z="0" />
+            <AimOffsetMinFPSLT x="0" y="0" z="0" />
+            <AimOffsetMaxFPSLT x="0" y="0" z="0" />
+            <AimOffsetMinFPSRNG x="0" y="0" z="0" />
+            <AimOffsetMaxFPSRNG x="0" y="0" z="0" />
+            <AimOffsetMinFPSScope x="0" y="0" z="0" />
+            <AimOffsetMaxFPSScope x="0" y="0" z="0" />
+            <AimOffsetEndPosMinFPSIdle x="0" y="0" z="0" />
+            <AimOffsetEndPosMedFPSIdle x="0" y="0" z="0" />
+            <AimOffsetEndPosMaxFPSIdle x="0" y="0" z="0" />
+            <AimOffsetEndPosMinFPSLT x="0" y="0" z="0" />
+            <AimOffsetEndPosMedFPSLT x="0" y="0" z="0" />
+            <AimOffsetEndPosMaxFPSLT x="0" y="0" z="0" />
+            <AimProbeRadiusOverrideFPSIdle value="0" />
+            <AimProbeRadiusOverrideFPSIdleStealth value="0" />
+            <AimProbeRadiusOverrideFPSLT value="0" />
+            <AimProbeRadiusOverrideFPSRNG value="0" />
+            <AimProbeRadiusOverrideFPSScope value="0" />
+          </WeaponAimOffsets>
+          <WeaponIkOffset type="CWeaponIkOffset">
+            <LeftHandIkOffset x="0" y="0" z="0" />
+            <IkRecoilDisplacement value="0" />
+            <IkRecoilDisplacementScope value="0" />
+            <IkRecoilDisplacementScaleBackward value="1" />
+            <IkRecoilDisplacementScaleVertical value="0.4" />
+            <UpperArmTranslationBias value="0" />
+          </WeaponIkOffset>
+          <PickupHash>ryjjjuva_0xfbd1f250</PickupHash>
+          <MPPickupHash>lkskevaa_0x6f602c24</MPPickupHash>
+          <PermanentDegradationHumanName>vfzifcfb_0xf32c924b</PermanentDegradationHumanName>
+          <MovementModeConditionalIdle />
+          <StatName>tebqhoea_0xe2e4fba4</StatName>
+          <SkillStatName />
+          <WeaponNM type="CWeaponNM">
+            <KnockdownCount value="3" />
+            <KillshotImpulseScale value="1.2" />
+            <NmShotTuningSet>revolver</NmShotTuningSet>
+            <NmHeadShotTuningSet>headshot</NmHeadShotTuningSet>
+            <NmNeckShotTuningSet>neckshot</NmNeckShotTuningSet>
+            <NmChestShotTuningSet />
+            <NmBackShotTuningSet>backshot</NmBackShotTuningSet>
+            <NmArmShotTuningSet>armshot</NmArmShotTuningSet>
+            <NmLegShotTuningSet>legshot</NmLegShotTuningSet>
+          </WeaponNM>
+          <PrimaryHandBlackboardString>qfptgifa_0x61fdd2ed</PrimaryHandBlackboardString>
+          <SupportingHandBlackboardString />
+          <SecondaryHandBlackboardString>hzbekxda_0xad6b83cb</SecondaryHandBlackboardString>
+          <AttachPoints itemType="CWeaponComponentPoint">
+            <Item>
+              <AttachBone>bsgrplva_0xb1339fc5</AttachBone>
+              <Components itemType="CWeaponComponentPoint__sComponent">
+                <Item>
+                  <Name>vzobzbsb_0x7fd24272</Name>
+                  <Default value="True" />
+                </Item>
+                <Item>
+                  <Name>component_revolver_cattleman_grip_ironwood</Name>
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name>component_revolver_cattleman_grip_pearl</Name>
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name>component_revolver_cattleman_grip_ebony</Name>
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name>tvjdmroa_0x9e90efa4</Name>
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name>mjnkqmkb_0xf7fc8737</Name>
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name>pjluesia_0xcc7ee74b</Name>
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+              </Components>
+            </Item>
+            <Item>
+              <AttachBone>dvrzoyga_0xb1cb4b19</AttachBone>
+              <Components itemType="CWeaponComponentPoint__sComponent">
+                <Item>
+                  <Name>fwnvfwza_0x62c5fe08</Name>
+                  <Default value="True" />
+                </Item>
+                <Item>
+                  <Name>component_revolver_cattleman_barrel_long</Name>
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name>yryfkeba_0x04c945be</Name>
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+              </Components>
+            </Item>
+            <Item>
+              <AttachBone>gpvkhdeb_0xe6ec7e31</AttachBone>
+              <Components itemType="CWeaponComponentPoint__sComponent">
+                <Item>
+                  <Name>avttwrsa_0x0a5b9408</Name>
+                  <Default value="True" />
+                </Item>
+                <Item>
+                  <Name>component_revolver_cattleman_sight_wide</Name>
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+              </Components>
+            </Item>
+            <Item>
+              <AttachBone />
+              <Components itemType="CWeaponComponentPoint__sComponent">
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+              </Components>
+            </Item>
+            <Item>
+              <AttachBone />
+              <Components itemType="CWeaponComponentPoint__sComponent">
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+              </Components>
+            </Item>
+            <Item>
+              <AttachBone />
+              <Components itemType="CWeaponComponentPoint__sComponent">
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+              </Components>
+            </Item>
+            <Item>
+              <AttachBone />
+              <Components itemType="CWeaponComponentPoint__sComponent">
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+              </Components>
+            </Item>
+            <Item>
+              <AttachBone />
+              <Components itemType="CWeaponComponentPoint__sComponent">
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+              </Components>
+            </Item>
+            <Item>
+              <AttachBone />
+              <Components itemType="CWeaponComponentPoint__sComponent">
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+              </Components>
+            </Item>
+            <Item>
+              <AttachBone />
+              <Components itemType="CWeaponComponentPoint__sComponent">
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+                <Item>
+                  <Name />
+                  <Default value="False" />
+                </Item>
+              </Components>
+            </Item>
+          </AttachPoints>
+          <FireProbeBone>ID_SKEL_ROOT</FireProbeBone>
+          <WeaponFlags>
+            CarriedInHand, Gun, yqzgfrda_0xcc2a57a6, CanFreeAim, CanHipFire, AnimReload,
+            UseSectionedReload, xjwxsufa_0xdaf9ba90, UseFPSAnimatedRecoil, ApplyBulletForce,
+            mxyqgwca_0xc6550be0, CanTwirl, UseFPSAimIK, AllowEarlyExitFromFireAnimAfterBulletFired,
+            AllowMeleeIntroAnim, CanLockonOnFoot, CanLockonInVehicle, DisableIdleVariations,
+            DamageCausesDisputes, PlayOutOfAmmoAnim, jfgpampa_0x5cac88b8, AnimCrouchFire,
+            HasLowCoverSwaps, AllowCloseQuarterKills, HasLowCoverReloads, UsableOnFoot,
+            OnlyFireOneShotPerTriggerPress, OnlyFireOneShot, EnforceAimingRestrictions,
+            IgnoreAnimReloadRateModifiers, UsableInVehicle, AttachFPSLeftHandIKToRight,
+            UsableInCover, HasIronSight, CanPerformArrest, eroojgxa_0x081f0bdd, CanBeFiredLikeGun,
+            ExclusivelyHolstered, ForceGrappleKnockout
+          </WeaponFlags>
+          <DefaultAIAttackMode>Shoot</DefaultAIAttackMode>
+          <AIAttackModes>Shoot</AIAttackModes>
+          <TintSpecValues>tint_default</TintSpecValues>
+          <FiringPatternAliases>hsrhvdba_0xd6e51a7a</FiringPatternAliases>
+          <ReloadUpperBodyFixupExpressionData />
+          <WeaponAdditiveWeight type="CWeaponAdditiveWeight">
+            <AimingBreathingAdditiveWeight value="1" />
+            <FiringBreathingAdditiveWeight value="0" />
+            <StealthAimingBreathingAdditiveWeight value="0" />
+            <StealthFiringBreathingAdditiveWeight value="0" />
+            <AimingLeanAdditiveWeight value="1" />
+            <FiringLeanAdditiveWeight value="1" />
+            <StealthAimingLeanAdditiveWeight value="1" />
+            <StealthFiringLeanAdditiveWeight value="1" />
+          </WeaponAdditiveWeight>
+          <DistanceFromTargetToSlideToDefaultLockOnBoneMin value="0" />
+          <DistanceFromTargetToSlideToDefaultLockOnBoneMax value="0" />
+          <ExpandPedCapsuleRadius value="0" />
+          <MeleeAnimPlaybackRate x="1" y="1.5" z="1" w="1" />
+          <AudioCollisionHash />
+          <HolsterAttachPoint>WEAPON_ATTACH_POINT_PISTOL_R</HolsterAttachPoint>
+          <AlternateHolsterAttachPoint>WEAPON_ATTACH_POINT_PISTOL_L</AlternateHolsterAttachPoint>
+          <MutuallyExclusiveHolsterAttachPoint>WEAPON_ATTACH_POINT_INVALID</MutuallyExclusiveHolsterAttachPoint>
+          <MutuallyExclusiveAlternateHolsterAttachPoint>WEAPON_ATTACH_POINT_INVALID</MutuallyExclusiveAlternateHolsterAttachPoint>
+          <ArmpitAttachPoint>WEAPON_ATTACH_POINT_INVALID</ArmpitAttachPoint>
+          <TemporaryAttachPoint>WEAPON_ATTACH_POINT_INVALID</TemporaryAttachPoint>
+          <ShortArmHolsterDOF value="0" />
+          <WeaponDualWieldAccuracyMod type="CWeaponDualWieldAccuracyMod">
+            <PairedWithPistolAccuracyModifier value="1" />
+            <PairedWithRevolverAccuracyModifier value="1" />
+            <PairedWithShotgunAccuracyModifier value="1" />
+          </WeaponDualWieldAccuracyMod>
+          <LightRadiusMult value="1" />
+          <LightRadiusMultLerpTime value="0" />
+          <VehicleAttackAngle value="25" />
+          <MaxDeadeyeTaggedTargets value="-1" />
+          <TorsoIKAngleLimit value="-1" />
+          <MeleeRightFistTargetHealthDamageScaler value="-1" />
+          <AirborneAircraftLockOnMultiplier value="1" />
+          <CamoDiffuseTexIdxs />
+          <Caliber>WEAPON_CALIBER_SMALL</Caliber>
+          <VertData>eicbddua_0xb5555aa8</VertData>
+          <MotivationImpactMultiplier value="1" />
+          <LookingGlassDefaultScopeInfo />
+        </Item>
+      </Infos>
+    </Item>
+    <Item>
+      <Infos />
+    </Item>
+    <Item>
+      <Infos />
+    </Item>
+  </Infos>
+  <VehicleWeaponInfos />
+  <AttachPointInfos />
+  <OverrideForcesModifier />
+</CWeaponInfoBlob>
