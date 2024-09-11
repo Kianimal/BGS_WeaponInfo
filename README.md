@@ -1,4 +1,5 @@
-"# BGS_WeaponInfo" 
+# BGS_WeaponInfo
+
  An example of how to edit weaponinfo files for RedM.
 
  THIS PROCESS IS BROKEN, CURRENTLY.
